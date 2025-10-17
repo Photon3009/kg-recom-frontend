@@ -444,7 +444,7 @@ export default function HomePage() {
                                 <div className="flex items-center justify-between mb-1">
                                   <p className="text-xs font-medium text-amber-900">🌐 KG Network Bonus</p>
                                   <p className="text-xs font-bold text-amber-700">
-                                    {(candidate.kg_relationship_bonus * 100).toFixed(0)}% / 38%
+                                    {((candidate.kg_relationship_bonus || 0) * 100).toFixed(0)}% / 38%
                                   </p>
                                 </div>
                                 <p className="text-sm font-semibold text-amber-700 mb-2">
