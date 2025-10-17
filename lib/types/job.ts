@@ -17,6 +17,9 @@ export interface Job {
   updated_at?: string;
   node_count?: number;
   relationship_count?: number;
+  education_required?: string;
+  responsibilities?: string[];
+  benefits?: string[];
 }
 
 export interface JobCreate {
