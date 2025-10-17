@@ -46,8 +46,8 @@ export interface ChatMessage {
     mode?: string;
     response_time?: number;
     total_tokens?: number;
-    context?: string;
-    widget_code?: string;
+    context?: string | null;
+    widget_code?: string | null;
     structured_data?: any[];
   };
 }

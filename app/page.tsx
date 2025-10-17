@@ -453,7 +453,7 @@ export default function HomePage() {
                                 <div className="mt-2 h-2 bg-amber-200 rounded-full overflow-hidden mb-3">
                                   <div
                                     className="h-full bg-amber-600 rounded-full"
-                                    style={{ width: `${(candidate.kg_relationship_bonus / 0.38) * 100}%` }}
+                                    style={{ width: `${((candidate.kg_relationship_bonus || 0) / 0.38) * 100}%` }}
                                   />
                                 </div>
 

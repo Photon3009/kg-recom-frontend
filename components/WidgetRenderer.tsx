@@ -2,7 +2,7 @@
 
 interface WidgetRendererProps {
   data: any[];
-  widgetCode?: string;
+  widgetCode?: string | null;
 }
 
 export default function WidgetRenderer({ data, widgetCode }: WidgetRendererProps) {
