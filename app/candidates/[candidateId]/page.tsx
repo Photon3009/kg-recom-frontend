@@ -276,8 +276,8 @@ export default function CandidateDetailsPage() {
                   <h3 className="text-lg font-semibold text-gray-900">{edu.degree}</h3>
                   <p className="text-gray-600 font-medium">{edu.institution}</p>
                   <p className="text-gray-500 text-sm">{edu.year}</p>
-                  {edu.field && (
-                    <p className="text-gray-700 mt-1">Field: {edu.field}</p>
+                  {edu.field_of_study && (
+                    <p className="text-gray-700 mt-1">Field: {edu.field_of_study}</p>
                   )}
                 </div>
               ))}
